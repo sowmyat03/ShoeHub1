@@ -34,7 +34,6 @@ if(token){
 
 exports.isAdmin = (req,res,next) =>{
     
-    console.log(req.User);
 
     if(req.user && req.user.isAdmin){
        

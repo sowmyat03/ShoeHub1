@@ -39,11 +39,11 @@ function App() {
                 <button onClick={openMenu}>
                     &#9776;
                 </button>
-                <Link to="/">Shoesite</Link>
+                <Link to="/">Shoehub</Link>
             </div>
             <div className="header-links">
                 <a href="cart.html">Cart</a>
-             
+             {' '}
                 {
                   userInfo ? <Link to="/profile">{userInfo.name}</Link>:
                   <Link to="/signin"> Sign-in</Link>
@@ -57,7 +57,8 @@ function App() {
                 <button className="sidebar-close-button" onClick={closeMenu}>X</button>
                 <ul>
                     <li>Sneakers</li>
-                    <li>Sport Shoes</li>
+                    <li>Slides</li>
+                    <li>Boots</li>
                 </ul>
         </aside>
         <main className="main">

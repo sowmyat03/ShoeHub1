@@ -1,6 +1,6 @@
 {
   "name": "fe",
-  "proxy": "http://192.168.1.139:5000",
+  "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -45,7 +45,7 @@ router.post("/",isAuth,isAdmin,async(req,res)=>{
     return res.status(500).send({message:'error in creating product'})
 })
 router.put("/:id",isAuth,isAdmin,async(req,res)=>{
-    console.log("its here");
+    
     const productId = req.params.id;
     const product=await Product.findById(productId);
     if(product){

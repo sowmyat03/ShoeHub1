@@ -19,7 +19,7 @@ body{
 }
 .header{
   grid-area: header;
-  background-color:blueviolet;
+  background-color:darkcyan;
   display: flex;
   color: white;
   justify-content: space-between;
@@ -37,14 +37,14 @@ body{
   text-decoration: none;
 }
 .header-links a:hover{
-  color: red;
+  color:darkslateblue;
 }
 .main{
   grid-area: main;
 }
 .footer{
   grid-area: footer;
-  background-color: blueviolet;
+  background-color:darkcyan;
   color: white;
   display: flex;
   justify-content: center;
@@ -54,7 +54,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color:brown;
+  color:darkslateblue;
 }
 
 /*Home screen*/
@@ -79,12 +79,14 @@ a:hover{
   height: 100%;
 }
 .product-name{
-  font-size: 2rem;
+  font-size: 1.5 rem;
   font-weight: bold;
+  color:dimgrey;
 }
+
 .product-brand{
   font-size: 1.2rem;
-  color:teal;
+  color:darkviolet;
 }
 .product-price{
   font-size: 2rem;
@@ -108,7 +110,7 @@ a:hover{
   cursor:pointer;
 }
 .sidebar{
-  transition: all 5sec;
+  transition: all .5sec;
   position:fixed;
   transform:translateX(-30rem);
   width:30rem;
@@ -123,14 +125,14 @@ a:hover{
   padding:0.5rem;
   cursor: pointer;
   position: absolute;
-  top:3rem;
+  top:1.6rem;
   left:20.5rem;
 }
 .sidebar.open{
   transform: translateX(0);
 } 
 .sidebar li:hover{
-  color: red;
+  color:gainsboro;
 }
 #root{
   height:100%;
@@ -170,7 +172,7 @@ a:hover{
 .details-action{
   border:0.1rem #808080 solid;
   border-radius: 0.5rem;
-  background-color: burlywood;
+  background-color:linen;
   padding:1rem;
 }
 .details-action ul li:last-child{
@@ -187,10 +189,10 @@ a:hover{
   border: 0.1rem #404040 solid;
 }
 .button.primary{
-  background-color:chartreuse;
+  background-color:#b2e9e9;
 }
 .button.secondary{
-  background-color:coral;
+  background-color:navajowhite;
 }
 .text-center{
   text-align: center;
@@ -219,16 +221,16 @@ a:hover{
   padding: 1rem;
 }
 .cart-list-container li img{
-  max-width: 10rem;
-  max-height: 10rem;
-  margin-bottom: 1rem;
+  max-width: 15rem;
+  max-height: 15rem;
+  margin-bottom: 2rem;
   border:0.1rem #808080 solid;
 }
 
 .cart-list-container li:first-child{
   display:flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items:flex-end;
 }
 
 .cart-image{
@@ -236,7 +238,7 @@ a:hover{
 }
 
 .cart-name{
-  flex:8 1;
+  flex:6 1;
 }
 
 .cart-price{
