@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WebSite</title>
+</head>
+<body>
+    
+    <div class="grid-container"> 
+        <header class="header">
+            <div class="brand">
+                <button onclick="openMenu()">
+                    &#9776;
+                </button>
+                <a href="index.html">Shoesite</a>
+            </div>
+            <div class="header-links">
+                <a href="cart.html">Cart</a>
+                <a href="signin.html">Sign In</a>
+            </div>
+        </header>
+        <aside class="sidebar">
+                <h3>Shopping Catergories</h3>
+                <button class="sidebar-close-button" onclick="closeMenu()">X</button>
+                <ul>
+                    <li>Sneakers</li>
+                    <li>Sport Shoes</li>
+                </ul>
+        </aside>
+        <main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpeg" alt="product">
+                            <div class="product-name"><a href="product.html">Sneakers</a></div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">60$</div>
+                            <div class="product-review">4.5 Stars</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpeg" alt="product">
+                            <div class="product-name"><a href="product.html">Sneakers</a></div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">60$</div>
+                            <div class="product-review">4.5 Stars</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpeg" alt="product">
+                            <div class="product-name"><a href="product.html">Sneakers</a></div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">60$</div>
+                            <div class="product-review">4.5 Stars</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpeg" alt="product">
+                            <div class="product-name"><a href="product.html">Sneakers</a></div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">60$</div>
+                            <div class="product-review">4.5 Stars</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpeg" alt="product">
+                            <div class="product-name"><a href="product.html">Sneakers</a></div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">60$</div>
+                            <div class="product-review">4.5 Stars</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpeg" alt="product">
+                            <div class="product-name"><a href="product.html">Sneakers</a></div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">60$</div>
+                            <div class="product-review">4.5 Stars</div>
+                        </div>
+                    </li>
+                
+                </ul>
+            </div>
+        </main>
+        <footer class="footer">
+            All rights reserved
+        </footer>
+    </div>
+
+    <script>
+    function openMenu(){
+        document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu(){
+        document.querySelector(".sidebar").classList.remove("open");
+    }
+    </script>
+    
+</body>
+</html>
